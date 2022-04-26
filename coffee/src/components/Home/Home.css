@@ -1,0 +1,29 @@
+.home{
+    display: flex;
+    text-align: center;
+    min-height: 100vh;
+    background-color: brown;
+    background: url(../img/cf4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding:10px;
+}
+
+.home .content {
+    max-width: 60rem;
+    padding: 0 20px;
+}
+
+.home .content h3 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.home .content p {
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: white;
+}
