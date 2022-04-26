@@ -1,0 +1,62 @@
+.contact {
+    background-color: rgb(206,128,70);
+    padding:10px;
+}
+
+.contact heading {
+    text-align: center;
+    color: #e7e40d;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-size: 2rem;
+    min-height: 100vh;
+
+}
+.contact heading span{
+    
+    color: white;
+    
+}
+.contact heading:hover { 
+    color: rgb(230, 215, 11);
+    
+}
+.contact heading span:hover { 
+    color: rgb(241, 238, 12);
+    
+}
+
+.contact .row {
+    display: flex;
+    background-color: var(--black);
+    gap: 0rem;
+    padding: 0 20px;
+}
+
+.contact .row .map {
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact .row .form {
+    flex: 1 1 45rem;
+    width: 100%;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.contact .row .form h3{
+    
+    text-transform: uppercase;
+    color: black ;
+    font-size: 15px;
+}
+
+.contact .row .form div{
+    
+   margin-top: 5px;
+   margin-bottom: 2px;
+   align-items: center;
+   background: transparent;
+}
