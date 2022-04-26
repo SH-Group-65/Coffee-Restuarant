@@ -1,8 +1,11 @@
 import React from 'react'
-
+import cf from '../img/cf4.jpg'
 function About() {
   return (
-    <div>About lorm 24</div>
+    <div>
+      <img src={cf} alt="Logo" />;
+      About lorm 24</div>
+    
   )
 }
 

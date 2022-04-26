@@ -1,6 +1,10 @@
 import React from 'react'
 import './Footr.css'
 import { Link } from "react-router-dom";
+import fb from '../img/fb.png'
+import ig from '../img/ig.jpg'
+import wh from '../img/whatsapp.jpg'
+import tw from '../img/twittr.jpg'
 
 
 function Footer() {
@@ -12,10 +16,10 @@ function Footer() {
             <div className="share">
 
 
-              <li> </li>
-              <li> </li>
-              <li> </li>
-              <li> </li>
+              <li><img src={fb} alt="Logo" /> </li>
+              <li> <img src={ig} alt="Logo" /></li>
+              <li> <img src={wh} alt="Logo" /></li>
+              <li><img src={tw} alt="Logo" /> </li>
 
             </div>
             <div className="links">
