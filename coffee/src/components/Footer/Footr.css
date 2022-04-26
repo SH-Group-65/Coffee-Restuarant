@@ -5,25 +5,25 @@
 }
 
 .footer .share {
-    padding: 1rem 0;
+    padding: 0;
     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    padding-top: 20px;
 
 }
+
 
 .footer .share li {
-    width: 4rem;
-    height: 5rem;
-    line-height: 5rem;
-    font-size: 2rem;
     color: #fff;
     border: 1px solid;
-    margin: 2px;
+    margin: 10px;
     border-radius: 50%;
-    
+    height: 50px;
+   display:flex;
 
 }
+
 .footer .share li:hover {
 
 color :aqua;

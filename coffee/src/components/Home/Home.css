@@ -3,7 +3,7 @@
     text-align: center;
     min-height: 100vh;
     background-color: brown;
-    background: url(../img/cf4.jpg) no-repeat;
+    background: url(../img/cf6.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     padding:10px;
@@ -17,13 +17,13 @@
 .home .content h3 {
     font-size: 4rem;
     text-transform: uppercase;
-    color: white;
+    color: rgb(17, 1, 1);
 }
 
 .home .content p {
     font-size: 1rem;
-    font-weight: lighter;
+    font-weight: bold;
     line-height: 1.8;
     padding: 1rem 0;
-    color: white;
+    color: rgb(10, 1, 1);
 }

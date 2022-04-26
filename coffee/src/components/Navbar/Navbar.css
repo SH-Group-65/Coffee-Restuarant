@@ -1,16 +1,41 @@
-.navbar{
+.navibar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1cm;
+    background-color:rgb(86,55,33);
+    height: 6rem;
+    border: 2px solid black;
+    
+    
 }
 
-.navbar .nav-links{
+.navibar .navi-links{
     display: flex;
+    padding: 0 10px;
+    margin-right: 2rem;
 }
 
-.navbar .nav-links li{
+.navibar .logo{
+    height: 80px;
+    width: 80px;
+}
+
+.navibar .logo img{
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+.navibar .navi-links .links .li{
     margin: 10px;
     list-style: none;
     text-transform: capitalize;
+    border-right: 1px solid;
+    color : rgb(228, 207, 22);
+    padding: 0 10px;
+}
+
+.navibar .navi-links .links .li:hover{
+   color: black;
 }
