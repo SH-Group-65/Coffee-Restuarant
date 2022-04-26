@@ -1,0 +1,69 @@
+.footer {
+    background-color: bisque;
+    text-align: center;
+    display: block;
+}
+
+.footer .share {
+    padding: 1rem 0;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer .share li {
+    width: 4rem;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    border: 1px solid;
+    margin: 2px;
+    border-radius: 50%;
+    
+
+}
+.footer .share li:hover {
+
+color :aqua;
+background-color: red;
+
+}
+
+.footer .links {
+    padding:  0;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+}
+
+.footer .links .li {
+    color: black;
+   margin: 1rem 0;
+    border: 2px solid rgb(19, 1, 1);
+    font: size 2rem;
+
+
+}
+
+.footer .links .li:hover {
+    color: rgb(46, 87, 8);
+   background-color: aliceblue;
+
+}
+
+
+.footer .credit {
+   font: size 2rem;
+   font-weight: lighter;
+   padding: 1rem;
+   color: #000;
+
+}
+.footer .credit span {
+   color: rgb(32, 18, 224);
+ 
+ } 
