@@ -4,7 +4,7 @@
     align-items: center;
     background-color:rgb(86,55,33);
     height: 6rem;
-    border: 2px solid black;
+    border: 3px solid black;
     
     
 }
@@ -23,7 +23,7 @@
 .navibar .logo img{
     height: 100%;
     width: 100%;
-    border: 1px solid;
+    border: 1px solid rgb(228, 207, 22);
     margin-left: 10px;
 }
 
