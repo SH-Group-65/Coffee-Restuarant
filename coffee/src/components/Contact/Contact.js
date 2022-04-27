@@ -34,8 +34,8 @@ function Contact() {
                   
                   <br></br>
                   <div>
-                  <label>Enter your message:
-                  <textarea name="comment" form="usrform">Enter text here...</textarea>
+                  <label>Enter your number:
+                  <input type="number" />
                      </label> 
                   </div>
                   

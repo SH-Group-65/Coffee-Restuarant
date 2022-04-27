@@ -44,13 +44,16 @@
     width: 100%;
     padding: 5rem 2rem;
     text-align: center;
+    justify-items: center;
+    background-color: rgb(196, 13, 13, 0.3);
 }
 
 .contact .row .form h3{
     
     text-transform: uppercase;
     color: black ;
-    font-size: 15px;
+    font-size: 25px;
+    padding-bottom: 15px;
 }
 
 .contact .row .form div{
@@ -59,4 +62,5 @@
    margin-bottom: 2px;
    align-items: center;
    background: transparent;
+   color: #e7e40d;
 }
