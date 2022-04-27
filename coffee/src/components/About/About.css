@@ -1,0 +1,89 @@
+
+
+.about {
+    
+    min-height: 100vh;
+    background: url(../img/cf6.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding:10px;
+    align-items: center;
+}
+.about heading {
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-size: 2rem;
+    min-height: 100vh;
+
+}
+.about heading span{
+    
+    color: white;
+    
+}
+.about heading:hover { 
+    color: rgb(230, 215, 11);
+    
+}
+.about heading span:hover { 
+    color: rgb(241, 238, 12);
+    
+}
+
+.about .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(125,79,45, 0.4);
+    border: 50%;
+}
+.about .row .image{
+    flex: 1 1.5 45rem;
+    align-items: center;
+    justify-content:center;
+    padding-left: 40%;
+    padding-top: 40px;
+    
+}
+
+.about .row .image img{
+    flex: 100%;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.about .row .content{
+    flex: 1 1.5rem;
+    padding: 2rem;
+}
+
+.about .row .contnet h3{
+    font-size: 1.1rem;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about .row .contnet p{
+    font-size: 1.1rem;
+    color: white;
+    padding: 2px;
+    line-height: 1.2rem;
+    text-align: center;
+}
+
+.about .row .contnet button{
+    background-color:rgba(129, 111, 6, 0.11);
+    border : 2px solid rgba(255, 255, 255,);
+    color: rgb(231, 241, 202);
+    padding: auto;
+    margin-left: 45%;
+    
+}
+
+
