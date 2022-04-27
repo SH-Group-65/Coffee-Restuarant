@@ -18,13 +18,10 @@ function App() {
         <Route path="/product" element={<Product />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-
       <Footer />
       <div className=''>
         
-
       </div>
-      
     </div>
   );
 }
