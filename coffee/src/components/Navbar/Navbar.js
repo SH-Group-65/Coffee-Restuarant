@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../img/logo4.webp'
 import './Navbar.css'
+
 function Navbar() {
   return (
     <div className='navibar'>
