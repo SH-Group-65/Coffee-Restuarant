@@ -8,6 +8,9 @@
    
     margin:auto;
     padding: 20px 20px;
+    border: 2px solid black;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 body {
