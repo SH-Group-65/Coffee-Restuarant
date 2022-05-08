@@ -17,6 +17,7 @@
 .navibar .logo{
     height: 80px;
     width: 80px;
+    min-width: 50px;
 }
 
 .navibar .logo img{
