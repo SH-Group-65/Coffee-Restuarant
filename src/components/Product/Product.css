@@ -1,0 +1,15 @@
+.card{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin:auto;
+}
+.card1{
+   
+    margin:auto;
+    padding: 20px 20px;
+}
+
+body {
+    background-color: rgb(250, 228, 249);
+}

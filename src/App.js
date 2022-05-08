@@ -6,9 +6,10 @@ import Contact from './components/Contact/Contact';
 import Product from './components/Product/Product';
 import Footer from './components/Footer/Footer';
 import { Routes, Route} from "react-router-dom";
+import ProductDtails from './components/Product/ProductDtails';
 
 
-function App() {
+function App(drinks) {
   return (
     <div className="App">
       <Navbar />
@@ -18,6 +19,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/product" element={<Product />} />
+        <Route path="/product/:name/:price" element={<ProductDtails drinks = {drinks} />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
 

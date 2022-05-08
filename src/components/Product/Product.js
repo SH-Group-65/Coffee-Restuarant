@@ -1,8 +1,17 @@
 import React from 'react'
+import './Product.css'
+import Menu from '../Menu card/Menu'
 
-function Product() {
+
+
+function Product(drinks) {
+
+
   return (
-    <div>Product</div>
+    <div>
+      |<Menu drinks = {drinks} />
+     
+    </div>
   )
 }
 
